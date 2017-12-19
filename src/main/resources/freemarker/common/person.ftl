@@ -1,0 +1,10 @@
+                        <li>${local["FirstName"]}: <b>${firstName!""}</b></li>
+                        <li>${local["LastName"]}: <b>${lastName!""}</b></li>
+                        <li>${local["Age"]}: <b>${age!""}</b></li>
+                        <li>${local["AadharCardNumber"]}: <b>${aadhar!""}</b></li>
+                        <li>${local["PANnumber"]}: <b>${pan!""}</b></li>
+                        <li>${local["Place"]}: <b>${place!""}</b></li>
+                        <li>${local["Address"]}: <b>${address!""}</b></li>
+                        <li>${local["Taluka"]}: <b>${taluka!""}</b></li>
+                        <li>${local["District"]}: <b>${district!""}</b></li>
+                        <li>${local["State"]}: <b>${state!""}</b></li>

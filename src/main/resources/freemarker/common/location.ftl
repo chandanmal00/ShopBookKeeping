@@ -1,0 +1,5 @@
+ <div class="row required"><div class="left">${local["Place"]}:</div> <div class="right"> <input type="text" placeholder="place" name="place" size="120" value="${place!""}"></div></div>
+ <div class="row"><div class="left">${local["Address"]}:</div> <div class="right"> <input type="text" placeholder="address" name="address" size="120" value="${address!""}"></div></div>
+ <div class="row"><div class="left">${local["Taluka"]}:</div> <div class="right"> <input type="text" placeholder="taluka" name="taluka" size="120" value="${taluka!""}"></div></div>
+ <div class="row"><div class="left">${local["District"]}:</div> <div class="right"> <input type="text" placeholder="district" name="district" size="120" value="${district!""}"></div></div>
+ <div class="row"><div class="left">${local["State"]}:</div> <div class="right"> <input type="text" id="state" placeholder="state" name="state" size="120" value="${state!""}"></div></div>

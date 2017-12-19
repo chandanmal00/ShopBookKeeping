@@ -1,0 +1,74 @@
+
+  $(function() {
+    var projects = [
+{"stateShort":"AL","value":"Alabama"},
+{"stateShort":"AK","value":"Alaska"},
+{"stateShort":"AZ","value":"Arizona"},
+{"stateShort":"AR","value":"Arkansas"},
+{"stateShort":"CA","value":"California"},
+{"stateShort":"CO","value":"Colorado"},
+{"stateShort":"CT","value":"Connecticut"},
+{"stateShort":"DE","value":"Delaware"},
+{"stateShort":"FL","value":"Florida"},
+{"stateShort":"GA","value":"Georgia"},
+{"stateShort":"HI","value":"Hawaii"},
+{"stateShort":"ID","value":"Idaho"},
+{"stateShort":"IL","value":"Illinois"},
+{"stateShort":"IN","value":"Indiana"},
+{"stateShort":"IA","value":"Iowa"},
+{"stateShort":"KS","value":"Kansas"},
+{"stateShort":"KY","value":"Kentucky"},
+{"stateShort":"LA","value":"Louisiana"},
+{"stateShort":"ME","value":"Maine"},
+{"stateShort":"MD","value":"Maryland"},
+{"stateShort":"MA","value":"Massachusetts"},
+{"stateShort":"MI","value":"Michigan"},
+{"stateShort":"MN","value":"Minnesota"},
+{"stateShort":"MS","value":"Mississippi"},
+{"stateShort":"MO","value":"Missouri"},
+{"stateShort":"MT","value":"Montana"},
+{"stateShort":"NE","value":"Nebraska"},
+{"stateShort":"NV","value":"Nevada"},
+{"stateShort":"NH","value":"New Hampshire"},
+{"stateShort":"NJ","value":"New Jersey"},
+{"stateShort":"NM","value":"New Mexico"},
+{"stateShort":"NY","value":"New York"},
+{"stateShort":"NC","value":"North Carolina"},
+{"stateShort":"ND","value":"North Dakota"},
+{"stateShort":"OH","value":"Ohio"},
+{"stateShort":"OK","value":"Oklahoma"},
+{"stateShort":"OR","value":"Oregon"},
+{"stateShort":"PA","value":"Pennsylvania"},
+{"stateShort":"RI","value":"Rhode Island"},
+{"stateShort":"SC","value":"South Carolina"},
+{"stateShort":"SD","value":"South Dakota"},
+{"stateShort":"TN","value":"Tennessee"},
+{"stateShort":"TX","value":"Texas"},
+{"stateShort":"UT","value":"Utah"},
+{"stateShort":"VT","value":"Vermont"},
+{"stateShort":"VA","value":"Virginia"},
+{"stateShort":"WA","value":"Washington"},
+{"stateShort":"WV","value":"West Virginia"},
+{"stateShort":"WI","value":"Wisconsin"},
+{"stateShort":"WY","value":"Wyoming"},
+    ];
+
+        $( "#state" ).autocomplete({
+      minLength: 1,
+      source: projects,
+      focus: function( event, ui ) {
+        $( "#state" ).val( ui.item.stateShort );
+        return false;
+      },
+      select: function( event, ui ) {
+        $( "#state" ).val( ui.item.stateShort );
+
+        return false;
+      }
+    })
+    .autocomplete( "instance" )._renderItem = function( ul, item ) {
+      return $( "<li>" )
+        .append( "<a>" + item.value + "<br>" + item.stateShort + "</a>" )
+        .appendTo( ul );
+    };
+  });

@@ -1,0 +1,46 @@
+
+    <link rel="stylesheet" href="/jquery_1_11_4/jquery-ui.css">
+    <link rel="stylesheet" href="/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/font-awesome-4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/bootstrapValidator.min.css"/>
+    <link rel="stylesheet" href="/buttons.dataTables.min.css"/>
+    <link rel="stylesheet" href="/jquery.dataTables.min.css"/>
+    <link rel="stylesheet" href="/fixedHeader.dataTables.min.css"/>
+    <style type="text/css">
+        .jainTravellerLogoSmall {
+            height: 55px;
+            width: 120px;
+        }
+
+        body {
+          font-family:  Verdana, Arial, Helvetica, sans-serif;
+          font-size: 12px;
+        }
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  border-top: 1px solid #eee;
+}
+
+.ui-autocomplete-loading {
+  background: white url("/anim.gif") right center no-repeat;
+}
+
+
+footer {
+    background-color: #f9f9f9;
+    padding: 20px 15px;
+    text-align: center;
+}
+
+footer {
+    display: block;
+}
+
+
+
+
+    </style>
+    <link rel="stylesheet" href="/print.css" type="text/css" media="print" />

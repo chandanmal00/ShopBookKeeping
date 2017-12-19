@@ -1,0 +1,155 @@
+      .success {color: green}
+      .error {color: red}
+      .label {text-align: right}
+
+.hr_class {
+            border-color: #337ab7;
+            border-style: solid;
+            border-bottom: 1px;
+            margin:0px;
+            padding:0px;
+            }
+
+.search {
+    display:       inline-block;
+    padding:       8px 20px;
+    background:    -moz-linear-gradient(#3d85c6, #073763);
+    background:    -o-linear-gradient(#3d85c6, #073763);
+    background:    -webkit-linear-gradient(#3d85c6, #073763);
+    background:    linear-gradient(#3d85c6, #073763);
+    border-radius: 5px;
+    color:         #fff;
+    text-align:    center;
+    text-shadow:   1px 1px 0 #000;
+    }
+
+body {
+  font-family:  Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+  .form .input_wrap input[type="text"], .form .input_wrap input[type="password"], .form .input_wrap select, .form .input_wrap textarea {
+      width: 320px;
+  }
+
+ input[type="text"], input[type="password"], select, textarea {
+      background: #fff none repeat scroll 0 0 padding-box;
+      border: 1px solid #b6baba;
+      border-radius: 3px;
+      box-shadow: 0 0 0 3px #f7f9f8;
+      color: #666;
+      font-size: 12px;
+      line-height: 15px;
+      padding: 9px 10px;
+      position: relative;
+      width: 350px;
+  }
+
+   .search_form  {
+    text-align: left;
+    }
+
+  .search_form input[type="text"] {
+  width: 400px;
+  }
+
+
+input {
+    line-height: normal;
+}
+
+input, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+}
+
+
+.row .right {
+    text-align: left;
+}
+
+.row.required .left::after {
+    color: #d67f28;
+    content: "*";
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+.row .left {
+    color: #333;
+    float: left;
+    font-size: 14px;
+    line-height: 40px;
+    padding-right: 20px;
+    position: relative;
+    text-align: right;
+    width: 205px;
+}
+
+.row .right {
+    text-align: left;
+}
+
+
+.row::before {
+    content: "";
+    display: block;
+}
+
+.row::after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.row {
+    margin: 15px 0;
+}
+
+ .row .left {
+    color: #333;
+    float: left;
+    font-size: 14px;
+    line-height: 40px;
+    padding-right: 20px;
+    position: relative;
+    text-align: right;
+    width: 205px;
+}
+.row .right {
+    float: left;
+    min-height: 40px;
+    text-align: left;
+}
+
+form {
+    font-size: 16px;
+    font-size-adjust: 0.488;
+    font-style: normal;
+    font-weight: 200;
+    letter-spacing: 0;
+}
+
+.ui-autocomplete-loading {
+  background: white url("/anim.gif") right center no-repeat;
+}
+
+
+footer {
+    background-color: #f9f9f9;
+    padding: 20px 15px;
+    text-align: center;
+}
+
+footer {
+    display: block;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+*::-moz-selection {
+    background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
+}

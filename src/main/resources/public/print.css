@@ -1,0 +1,93 @@
+
+#menu {
+	display: none;
+}
+
+header nav, footer {
+display: none;
+}
+
+
+#wrapper,
+#content {
+	width: auto;
+	border: 0;
+	margin: 0 5%;
+	padding: 0;
+	float: none !important;
+	background: transparent;
+}
+
+text-decoration : underline;
+  color : #0000ff;
+
+a:link,
+a:visited {
+	color: #520;
+	background: transparent;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a {
+  text-decoration : underline;
+  color : #0000ff;
+}
+
+#content a:link:after,
+#content a:visited:after {
+	content: " (" attr(href) ") ";
+	font-size: 90%;
+}
+
+@media all {
+	.page-break	{ display: none; }
+}
+
+@media print {
+	.page-break	{ display: block; page-break-before: always; }
+}
+
+@media print {
+    body {
+      background-color: black !important;
+    }
+}}
+
+body {
+	font-family: Georgia, serif, "Times New Roman", Times;
+	color: black;
+	font-size: 16pt;
+	line-height: 1.3;
+	background: white;
+	margin:0; padding:0;
+	word-spacing:1px;
+	letter-spacing:0.2px;
+	margin: 0px;
+	padding: 0px;
+}
+
+page {
+	width: 100%;
+	margin: 0; padding: 0;
+}
+
+#header, #menu-bar, #sidebar, h2#postcomment, form#commentform, #footer .no_show {
+	display: none;
+}
+
+.entry a:after {
+	content: " [" attr(href) "] ";
+}
+
+
+#container, #container2, #content {
+width: 100%;
+margin: 0;
+float: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}

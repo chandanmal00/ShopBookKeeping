@@ -1,0 +1,92 @@
+Release Notes:
+--v1--
+-Customer Transaction/Payment
+-Item master
+-salesman
+-Customer
+-billing and invoice
+
+--v2--
+working payments for customer
+entity page for customer works with balance
+Fix the invoice page for customerPayment
+Fix indexes
+Reverted back to UniqueKeyBased addition
+Added createdBy for all entities
+change of invoice for payments to add PaymentType
+adding Markup Percentage while creating Transactions from config
+added item details page
+added markup calcuation
+
+--v3--
+added count
+added 100 limit of usage for trial edition
+
+--v4--
+fixed the summary for customer instead of showing full, it shows for the specific customer now
+added item calls in one head
+added eventDate to everything
+added transactionDate in addTransaction as a field with checks
+fixed search templates for all entities
+Fix landing page for all listing pages
+fix indexes for all entities
+add listing page for all entities
+fix the multiSearch to work
+fix the multiSearch to show only entities which have results
+
+--v5--
+added trial edition messaging on all pages and limits/checks too
+
+--V6--
+Merged ItemSold and ItemInventory to ItemTransactions
+InventoryStatus now very easy
+added methods as required
+added custom fields to identity sell/buy as an ENUM in itemTransactions
+
+--V7--
+added join by date to show transactions and payments together, this gives a better view
+
+--add at the customer/salesman/entiityLevel: how many payments/transaction we have
+
+--V8--
+added update api for Customer, but not shown
+
+--
+added merging og tables
+costs/sum can be seen directly now for all
+markdwons added
+added carousel on homepage
+reflection dev from broker bookkeeping here (in progress)
+
+//limit no. of search results in all forms. [DONE]
+6) added cookie specific to host, port
+--i18n : support for Hindi
+
+-- moving to new way.
+--added sorting for dates,so the graphs shows properly
+- added utf8 support and hindi properties chnage lookup i18n supports
+--moved to TreeMap for sorted data in joinMap
+--fixed the issue of footer not showing correctly for FreeMarkedbased ROutes
+-- added more transalations
+--using an excel sheet now to do it
+--deletion of files
+--bug when price changes, added target class
+
+--Graphs got bad due to hindi, need to fix javascript reading
+--Other side effects -like markups are not coming in english, we need to control numbers.
+--handling unicode while converting (utf8)
+--like  link will not work (hindi) [need to convert unicode back when requests happen]
+
+
+
+--TODO:
+--need to add fields being stored back in transaction
+--DEBUG the fix for showing numbers but keeping Javascript fixes for i18n--
+--add edit, update, remove for all
+
+--Remove links to terms/use and disclaimer while logging in
+
+--High--
+--add dashboard for the user loggedin
+--add view for all users for admin to login
+--Multi login support / messaging that you signed on another browser

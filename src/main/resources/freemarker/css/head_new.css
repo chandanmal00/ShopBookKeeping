@@ -1,0 +1,29 @@
+
+    <link rel="stylesheet" href="/jquery_1_11_4/jquery-ui.css">
+    <link rel="stylesheet" href="/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/font-awesome-4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/bootstrapValidator.min.css"/>
+        <link rel="stylesheet" href="/buttons.dataTables.min.css"/>
+        <link rel="stylesheet" href="/jquery.dataTables.min.css"/>
+        <link rel="stylesheet" href="/fixedHeader.dataTables.min.css"/>
+    <style type="text/css">
+        <#include "/css/search_page.css">
+        <#include "/css/justifiednav.css">
+        <#include "/css/carousal.css">
+        .jainTravellerLogoSmall {
+            height: 55px;
+            width: 120px;
+        }
+
+        .hr_comments {
+           border-color: gray;
+           border-style: solid;
+           border-bottom: 1px;
+           margin:0px;
+           padding:0px;
+        }
+    <link rel="stylesheet" href="/print.css" type="text/css" media="print" />
+    <link rel=”stylesheet” href=”/reset.css” type=”text/css” media=”screen” />
+
+    </style>

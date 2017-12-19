@@ -1,0 +1,30 @@
+    <style type="text/css">
+      .label {text-align: right}
+      .error {color: red}
+      body {
+          margin: 0px auto;
+          text-align: center;
+      }
+
+      .search_form {
+          text-align: center;
+      }
+
+      .searchImage {
+      	width: 360px;
+      	height: 360px;
+      	border-radius: 150px;
+      	-webkit-border-radius: 150px;
+      	-moz-border-radius: 150px;
+      	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+      	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+      	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+      	}
+
+      	.searchImage img {
+          	opacity: 0;
+          	filter: alpha(opacity=0);
+          	}
+
+
+    </style>

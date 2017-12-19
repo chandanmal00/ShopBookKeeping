@@ -1,0 +1,153 @@
+
+#menu {
+	display: none;
+}
+
+header nav, footer {
+display: none;
+}
+
+text-decoration : underline;
+  color : #0000ff;
+
+a:link,
+a:visited {
+	color: #520;
+	background: transparent;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a {
+  text-decoration : underline;
+  color : #0000ff;
+}
+
+#content a:link:after,
+#content a:visited:after {
+	content: " (" attr(href) ") ";
+	font-size: 90%;
+}
+
+@media all {
+	.page-break	{ display: none; }
+}
+
+@media print {
+	.page-break	{ display: block; page-break-before: always; }
+}
+
+@media print {
+    body {
+      background-color: black !important;
+    }
+}}
+
+body {
+	font-family: Georgia, serif, "Times New Roman", Times;
+	color: black;
+	font-size: 8pt;
+	line-height: 0.8;
+	background: white;
+	margin:0; padding:0;
+	word-spacing:0.5pt;
+	letter-spacing:0.1pt;
+	margin: 0mm;
+	padding: 0mm;
+}
+
+page {
+	margin: 0mm; padding: 0mm;
+}
+
+#header, #menu-bar, #sidebar, h2#postcomment, form#commentform, #footer .no_show {
+	display: none;
+}
+
+.entry a:after {
+	content: " [" attr(href) "] ";
+}
+
+
+* {
+  margin: 0mm;
+  padding: 0mm;
+}
+
+body
+{
+  margin: 0mm 0mm 0mm 0mm;
+}
+
+@page
+{
+    size: auto;   /* auto is the initial value */
+
+    /* this affects the margin in the printer settings */
+    margin: 0mm 0mm 0mm 0mm;
+}
+
+h1 h2 h3 h4 {
+    font-size: 4pt;
+}
+
+p {
+    font-size: 3pt;
+}
+
+div {
+    font-size: 3pt;
+}
+
+
+body
+{
+    /* this affects the margin on the content before sending to printer */
+    margin: 0mm;
+    font-size: 3pt;
+    float: none !important;
+    background: transparent;
+    	font-family: serif, "Times New Roman", Times;
+    	color: black;
+    	line-height: 0.8;
+    	background: white;
+    	margin:0; padding:0;
+    	word-spacing:0.5pt;
+    	letter-spacing:0.1pt;
+    	margin: 0mm;
+    	padding: 0mm;
+}
+
+        body{
+                /* this affects the margin on the content before sending to printer */
+                margin: 0mm;
+                font-size: 4pt;
+        }
+        h1 h2 h3 h4 {
+            font-size: 2pt;
+        }
+
+        p {
+            font-size: 2pt;
+        }
+
+        div {
+            font-size: 2pt;
+        }
+
+        body
+        {
+          padding: 0mm;
+          font-family: SignPainter, "Times New Roman", serif, Times;
+          color: black;
+              	line-height: 0.5pt;
+              	background: white;
+              	margin:0mm; padding:0mm;
+              	word-spacing:0.3pt;
+              	letter-spacing:0.1pt;
+              	margin: 0mm;
+              	padding: 0mm;
+        }
+
+    }
+

@@ -1,0 +1,23 @@
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css"/>
+    <style type="text/css">
+        <#include "/css/search_page.css">
+        <#include "/css/justifiednav.css">
+        <#include "/css/carousal.css">
+        .jainTravellerLogoSmall {
+            height: 25px;
+            width: 100px;
+        }
+
+        .hr_comments {
+           border-color: gray;
+           border-style: solid;
+           border-bottom: 1px;
+           margin:0px;
+           padding:0px;
+        }
+
+    </style>

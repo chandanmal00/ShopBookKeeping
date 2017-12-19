@@ -1,0 +1,43 @@
+<style type="text/css">
+    #photo {
+        width: 300px;
+        height: 300px;
+    }
+
+    /* resize images */
+    #photo img {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .tileset {
+        margin-bottom: 20px;
+        padding: 0 20px;
+    }
+
+#form_wrapper {
+    width: 900px;
+}
+
+
+.image-rightbar {
+    float: left;
+    width: 305px;
+}
+
+.row {
+    margin: 0px 0;
+}
+
+.row .left {
+width: 140px;
+}
+
+
+div.centered      { width: 900px; }
+div.columns       { width: 900px;  margin: 0 auto;}
+div.clear         { clear: both; margin-left:auto; width:500px; }
+
+
+</style>

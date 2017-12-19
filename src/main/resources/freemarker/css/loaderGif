@@ -1,0 +1,17 @@
+
+
+    <div class="center-text">
+        <img src="//doordash-static.s3.amazonaws.com/static/img/ajax-loader.gif" class="ajax-loader" />
+    </div>
+
+<script src="/bootstrap/3.3.5/js/bootstrapValidator.js"/></script>
+
+    .jainFoodie-logo {
+        background-image: url("../img/jainFoodie-logo-red@2x.png");
+        background-position: 0 center;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        height: 18px;
+        margin: 0;
+        width: 174px;
+        }

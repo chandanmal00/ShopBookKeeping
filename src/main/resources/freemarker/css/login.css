@@ -1,0 +1,34 @@
+     <style type="text/css">
+        .info-card-padding {
+        padding: 15px;
+        }
+        .info-card {
+        background-color: #fff;
+        border: 10px solid #d8d8d8;
+        box-sizing: border-box;
+        }
+        .roundify {
+        border-radius: 5px;
+        overflow: hidden;
+        }
+
+        nav .jainTraveller-logo {
+        line-height: 25px;
+        margin-bottom: 7px;
+        margin-top: 24px;
+        }
+
+
+        .jainTraveller-logo {
+        background-position: 0 center;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        height: 18px;
+        margin: 0;
+        width: 174px;
+        }
+        h1, h2, h3 {
+        color: #2a2a2a;
+        font-weight: normal;
+        }
+         </style>

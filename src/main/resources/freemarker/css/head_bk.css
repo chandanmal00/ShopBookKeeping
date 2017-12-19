@@ -1,0 +1,23 @@
+    <link rel="stylesheet" href="/jquery-ui.css">
+    <link rel="stylesheet" href="/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/bootstrap.min.css">
+    <link rel="stylesheet" href="/font-awesome.min.css">
+    <link rel="stylesheet" href="/bootstrapValidator.min.css"/>
+    <style type="text/css">
+        <#include "/css/search_page.css">
+        <#include "/css/justifiednav.css">
+        <#include "/css/carousal.css">
+        .jainTravellerLogoSmall {
+            height: 25px;
+            width: 100px;
+        }
+
+        .hr_comments {
+           border-color: gray;
+           border-style: solid;
+           border-bottom: 1px;
+           margin:0px;
+           padding:0px;
+        }
+
+    </style>

@@ -1,0 +1,38 @@
+
+    .imgWidget .carousel {
+        border: 1px solid #bababa;
+        border-radius: 10px;
+        background-color: ghostwhite;
+        float: left;
+        padding-left: 10px;
+    }
+       .imgWidget .carousel>ul>li>img {
+            width: 150px;
+            height: 118px;
+            vertical-align:middle;
+            margin: 10px 10px 10px 0;
+            border-radius: 5px;
+        }
+
+    .imgWidget a.prev, .imgWidget a.next {
+        display: block;
+        width: 26px;
+        height: 30px;
+        line-height: 1;
+        background-color: #333333;
+        color: ghostwhite;
+        text-decoration: none;
+        font-family: Arial, sans-serif;
+        font-size: 25px;
+        border-radius: 8px;
+        float: left;
+    }
+   .imgWidget a.prev {
+        margin: 50px -5px 0 0; text-indent: 7px;
+    }
+    .imgWidget a.next {
+        margin: 50px 0 0 -5px; text-indent: 10px;
+    }
+   .imgWidget a.prev:hover,.imgWidget a.next:hover {
+        background-color: #666666;
+    }

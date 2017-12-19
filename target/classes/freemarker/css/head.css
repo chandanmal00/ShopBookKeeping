@@ -1,0 +1,90 @@
+
+    <link rel="stylesheet" href="/jquery_1_11_4/jquery-ui.css">
+    <link rel="stylesheet" href="/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/font-awesome-4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/bootstrapValidator.min.css"/>
+    <link rel="stylesheet" href="/buttons.dataTables.min.css"/>
+    <link rel="stylesheet" href="/jquery.dataTables.min.css"/>
+    <link rel="stylesheet" href="/fixedHeader.dataTables.min.css"/>
+            <link rel="stylesheet" href="/bootstrap-datepicker3.standalone.min.css"/>
+            <script src="/jquery_1_11_4/external/jquery/jquery.js"></script>
+            <script src="/jquery_1_11_4/jquery-ui.js"></script>
+    <style type="text/css">
+        <#include "/css/search_page.css">
+        <#include "/css/justifiednav.css">
+        <#include "/css/carousal.css">
+        .jainTravellerLogoSmall {
+            height: 55px;
+            width: 120px;
+        }
+
+        .hr_comments {
+           border-color: gray;
+           border-style: solid;
+           border-bottom: 1px;
+           margin:0px;
+           padding:0px;
+        }
+    </style>
+    <link rel="stylesheet" href="/print.css" type="text/css" media="print" />
+    <link rel="stylesheet" href="/reset.css" type="text/css" media="screen" />
+    <style type="text/css">
+    @media print{
+        body{
+                /* this affects the margin on the content before sending to printer */
+                margin: 0mm;
+                font-size: 2pt;
+        }
+        h1 h2 h3 h4 {
+            font-size: 2pt;
+        }
+
+        p {
+            font-size: 2pt;
+        }
+
+        div {
+            font-size: 2pt;
+        }
+
+        body
+        {
+          font-family:  Georgia, serif, "Times New Roman", Times;
+          color: black;
+              	background: white;
+              	margin: 0mm;
+              	padding: 0mm;
+        }
+        #page td {
+           padding:0; margin:0;
+        }
+
+        #page {
+           border-collapse: collapse;
+        }
+
+        table {
+        border-spacing: 0;
+        border-collapse: collapse;
+        }
+
+        .table {
+            border: 0px;
+            padding:0;
+            margin:0;
+            border-collapse: collapse;
+        }
+
+
+        @page {
+            margin: 0mm;
+        }
+
+
+    }
+
+    .dropdown:hover .dropdown-menu {
+       display: block;
+    }
+    </style>
